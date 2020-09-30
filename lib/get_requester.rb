@@ -7,6 +7,7 @@ class GetRequester
   end 
   
   def parse_json
-    JSON.parse(get_response_body)
+    parse_json = JSON.parse(get_response_body)
+    
   end 
 end 
